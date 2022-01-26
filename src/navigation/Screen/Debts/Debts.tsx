@@ -50,7 +50,7 @@ function Debts({navigation}: any) {
             marginBottom: 10,
           }}>
           <View style={{}}>
-            <Text style={{fontWeight: '600',color: '#fff', fontSize: 14}}>VND</Text>
+            <Text style={{fontWeight: '600',color: '#fff', fontSize: 14}}>USD</Text>
           </View>
           <View
             style={{
@@ -58,7 +58,7 @@ function Debts({navigation}: any) {
               flexDirection: 'row',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '600',color: '#fff', fontSize: 14}}>35.000.000</Text>
+            <Text style={{fontWeight: '600',color: '#fff', fontSize: 14}}>5.000</Text>
           </View>
         </View>
       </View>
