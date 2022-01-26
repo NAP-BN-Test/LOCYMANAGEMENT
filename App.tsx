@@ -115,6 +115,14 @@ const arrItems = [
     nameStack: 'kqkdmonth',
     icon: <MaterialIcons name={'add-task'} size={28} color={'#000'} />,
   },
+
+  {
+    key: '14',
+    name: 'Công nợ',
+    nameTab: 'Home',
+    nameStack: 'debts',
+    icon: <MaterialIcons name={'hvac'} size={28} color={'#000'} />,
+  },
 ];
 const App = ({navigation}: any) => {
   const [islogin, setIslogin] = useState(false);

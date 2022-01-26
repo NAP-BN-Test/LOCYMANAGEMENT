@@ -17,6 +17,7 @@ import Payment from '../Screen/Payment/Payment';
 import CashFlow from '../Screen/CashFlow/CashFlow';
 import KQKDDATE from '../Screen/KQKD/KQKD-Date/Kqkd-date';
 import KQKDMONTH from '../Screen/KQKD/KQKD-Month/Kqkd-month';
+import Debts from '../Screen/Debts/Debts';
 
 const HomeStack = createStackNavigator();
 
@@ -177,6 +178,16 @@ const HomeStackScreen = ({navigation, route}: any) => {
         options={() => ({
           header: () => (
             <HeaderBar navigation={navigation} title={'KQKD tháng'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="debts"
+        component={Debts}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'Công nợ'} />
           ),
         })}
       />
