@@ -9,6 +9,12 @@ import Customer from '../Screen/Customer/Customer';
 import DetailCustomer from '../Screen/Customer/Detail/DetailCutomer';
 import Order from '../Screen/Order/Order';
 import Quote from '../Screen/Quote/Quote';
+import PriceLookUp from '../Screen/Quote/PriceLookUp/PriceLookUp';
+import ListQuote from '../Screen/Quote/ListQuote/ListQuote';
+import ListOrder from '../Screen/Order/ListOrder/ListOrder';
+import Suggestions from '../Screen/Suggestions/Suggestions';
+import Payment from '../Screen/Payment/Payment';
+import CashFlow from '../Screen/CashFlow/CashFlow';
 
 const HomeStack = createStackNavigator();
 
@@ -92,6 +98,64 @@ const HomeStackScreen = ({navigation, route}: any) => {
         component={Quote}
         options={() => ({
           header: () => <HeaderBar navigation={navigation} title={'Báo giá'} />,
+        })}
+      />
+
+      <HomeStack.Screen
+        name="listquote"
+        component={ListQuote}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'Danh sách báo giá'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="listorder"
+        component={ListOrder}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'Danh sách order'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="pricelookup"
+        component={PriceLookUp}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'Tra cứu giá'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="suggestions"
+        component={Suggestions}
+        options={() => ({
+          header: () => <HeaderBar navigation={navigation} title={'Đề nghị'} />,
+        })}
+      />
+
+      <HomeStack.Screen
+        name="payment"
+        component={Payment}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'Phiếu chi'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="cashflow"
+        component={CashFlow}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'Luồng tiền'} />
+          ),
         })}
       />
     </HomeStack.Navigator>

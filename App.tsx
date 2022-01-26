@@ -71,6 +71,56 @@ const arrItems = [
     ),
   },
 
+  {
+    key: '7',
+    name: 'Danh sách báo giá',
+    nameTab: 'Home',
+    nameStack: 'listquote',
+    icon: (
+      <MaterialIcons name={'wysiwyg'} size={28} color={'#000'} />
+    ),
+  },
+
+  {
+    key: '8',
+    name: 'Danh sách order',
+    nameTab: 'Home',
+    nameStack: 'listorder',
+    icon: (
+      <MaterialIcons name={'wysiwyg'} size={28} color={'#000'} />
+    ),
+  },
+
+  {
+    key: '9',
+    name: 'Đề nghị',
+    nameTab: 'Home',
+    nameStack: 'suggestions',
+    icon: (
+      <MaterialIcons name={'art-track'} size={28} color={'#000'} />
+    ),
+  },
+
+  {
+    key: '10',
+    name: 'Phiếu chi',
+    nameTab: 'Home',
+    nameStack: 'payment',
+    icon: (
+      <MaterialIcons name={'payment'} size={28} color={'#000'} />
+    ),
+  },
+
+  {
+    key: '11',
+    name: 'Luồng tiền',
+    nameTab: 'Home',
+    nameStack: 'cashflow',
+    icon: (
+      <MaterialIcons name={'local-atm'} size={28} color={'#000'} />
+    ),
+  },
+
  
 
 

@@ -3,7 +3,7 @@ import {Text, View} from 'react-native';
 import {ScrollView} from 'react-native-gesture-handler';
 import {TextInput, Button, RadioButton} from 'react-native-paper';
 import Ionicons from "react-native-vector-icons/Ionicons";
-function Quote() {
+function Quote({navigation}: any) {
   const [checked, setChecked] = React.useState('SEA');
   return (
     <View style={{paddingTop: 30, paddingHorizontal: 30}}>
@@ -28,7 +28,7 @@ function Quote() {
               <RadioButton
                 value="SEA"
                 status={checked === 'SEA' ? 'checked' : 'unchecked'}
-                onPress={() => setChecked('first')}
+                onPress={() => setChecked('SEA')}
                 color='#c356b5'
               />
               <Text>SEA</Text>
@@ -44,7 +44,7 @@ function Quote() {
               <RadioButton
                 value="AIR"
                 status={checked === 'AIR' ? 'checked' : 'unchecked'}
-                onPress={() => setChecked('second')}
+                onPress={() => setChecked('AIR')}
                 color='#c356b5'
               />
               <Text>AIR</Text>
@@ -146,7 +146,7 @@ function Quote() {
             right={<TextInput.Icon
                 style={{ marginRight: 20 }}
                 name={() => (
-                  <Ionicons name="search" size={26} color="#c356b5" />
+                  <Ionicons name="search" size={26} color="#c356b5" onPress={()=>navigation.navigate('Home', {screen: 'pricelookup'})}/>
                 )}
                 
               />}
@@ -168,6 +168,7 @@ function Quote() {
             underlineColorAndroid="#f000"
             blurOnSubmit={false}
             // value={commodities}
+            style={{height: 80}}
             onChangeText={(e: any) => {}}
           />
         </View>
