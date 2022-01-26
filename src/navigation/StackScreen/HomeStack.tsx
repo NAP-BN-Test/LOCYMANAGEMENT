@@ -15,6 +15,8 @@ import ListOrder from '../Screen/Order/ListOrder/ListOrder';
 import Suggestions from '../Screen/Suggestions/Suggestions';
 import Payment from '../Screen/Payment/Payment';
 import CashFlow from '../Screen/CashFlow/CashFlow';
+import KQKDDATE from '../Screen/KQKD/KQKD-Date/Kqkd-date';
+import KQKDMONTH from '../Screen/KQKD/KQKD-Month/Kqkd-month';
 
 const HomeStack = createStackNavigator();
 
@@ -155,6 +157,26 @@ const HomeStackScreen = ({navigation, route}: any) => {
         options={() => ({
           header: () => (
             <HeaderBar navigation={navigation} title={'Luồng tiền'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="kqkddate"
+        component={KQKDDATE}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'KQKD ngày'} />
+          ),
+        })}
+      />
+
+      <HomeStack.Screen
+        name="kqkdmonth"
+        component={KQKDMONTH}
+        options={() => ({
+          header: () => (
+            <HeaderBar navigation={navigation} title={'KQKD tháng'} />
           ),
         })}
       />
