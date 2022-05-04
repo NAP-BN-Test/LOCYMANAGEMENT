@@ -20,7 +20,7 @@ function Debts({navigation}: any) {
           onChange={(index: any) => setIndexSelect(index)}
         />
       </View>
-      <View style={{backgroundColor: indexSelect != 1? 'green': 'orange', paddingVertical: 10, paddingHorizontal: 10}}>
+      <View style={{backgroundColor: indexSelect != 1? 'green': '#ff6d00', paddingVertical: 10, paddingHorizontal: 10}}>
         <View
           style={{
             display: 'flex',
@@ -177,7 +177,7 @@ function Debts({navigation}: any) {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              <Text>30.000.000</Text>
+              <Text>35.000.000</Text>
             </View>
           </View>
 
@@ -198,7 +198,7 @@ function Debts({navigation}: any) {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              <Text>4.000</Text>
+              <Text>5.000</Text>
             </View>
           </View>
         </TouchableOpacity>

@@ -9,7 +9,7 @@ function KQKDDATE({navigation}: any) {
 
   const {open} = state;
   return (
-    <View style={{paddingTop: 30, paddingHorizontal: 10, height: '100%',}}>
+    <View style={{paddingTop: 30, paddingHorizontal: 10, height: '100%'}}>
       <View
         style={{
           height: 40,
@@ -79,12 +79,11 @@ function KQKDDATE({navigation}: any) {
               style={{
                 width: '85%',
                 display: 'flex',
-                flexDirection: 'row',
-                alignItems: 'center',
+                flexDirection: 'column',
+                // alignItems: 'center',
               }}>
-              <Text>
-                2 x 20'DC (20 BOX) (G.W = 51 (TONS); Total Meas = 51 (CBM)))
-              </Text>
+              <Text>2 x 20'DC (20 BOX) (G.W = 51 (TONS);</Text>
+              <Text>Total Meas = 51 (CBM)))</Text>
             </View>
           </View>
           <View
@@ -183,7 +182,7 @@ function KQKDDATE({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{}}>
-              <Text style={{fontWeight: '600', fontSize: 14, color: '#dfa053'}}>
+              <Text style={{fontWeight: '600', fontSize: 14, color: '#ff6d00'}}>
                 MUA
               </Text>
             </View>

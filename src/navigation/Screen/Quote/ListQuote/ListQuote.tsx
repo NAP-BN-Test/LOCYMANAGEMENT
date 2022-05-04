@@ -37,7 +37,7 @@ function ListQuote({navigation}: any) {
               marginVertical: 3,
               paddingHorizontal: 20,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#c91884'}}>
               TÊN NGẮN KHÁCH HÀNG
             </Text>
           </View>
@@ -59,7 +59,7 @@ function ListQuote({navigation}: any) {
           <View
             style={{
               borderBottomWidth: 1,
-              paddingTop: 20,
+              paddingTop: 10,
               // paddingVertical: 40,
               marginHorizontal: 10,
               borderColor: 'gray',
@@ -75,7 +75,7 @@ function ListQuote({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 SEA
               </Text>
             </View>
@@ -98,7 +98,7 @@ function ListQuote({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 USD
               </Text>
             </View>
@@ -141,7 +141,7 @@ function ListQuote({navigation}: any) {
               marginVertical: 3,
               paddingHorizontal: 20,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#c91884'}}>
               TÊN NGẮN KHÁCH HÀNG
             </Text>
           </View>
@@ -163,7 +163,7 @@ function ListQuote({navigation}: any) {
           <View
             style={{
               borderBottomWidth: 1,
-              paddingTop: 20,
+              paddingTop: 10,
               // paddingVertical: 40,
               marginHorizontal: 10,
               borderColor: 'gray',
@@ -179,7 +179,7 @@ function ListQuote({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 SEA
               </Text>
             </View>
@@ -202,7 +202,7 @@ function ListQuote({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 USD
               </Text>
             </View>
@@ -224,7 +224,7 @@ function ListQuote({navigation}: any) {
       {/* <BtnPlus
         icon="plus"
         actions={[]}
-        // backgroundColor='#ff00e0'
+        // backgroundColor='#c91884'
         onPress={() => {
           navigation.navigate('Home', {screen: 'quote'});
         }}

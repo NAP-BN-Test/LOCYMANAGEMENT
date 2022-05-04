@@ -50,10 +50,12 @@ function DetailCustomer({navigation}: any) {
               width: '100%',
               marginVertical: 3,
               paddingHorizontal: 20,
+              marginBottom: 10,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
               Thịnh Đạt
             </Text>
+
           </View>
           <View
             style={{
@@ -73,7 +75,7 @@ function DetailCustomer({navigation}: any) {
           <View
             style={{
               borderBottomWidth: 1,
-              paddingTop: 20,
+              paddingTop: 10,
               // paddingVertical: 40,
               marginHorizontal: 10,
               borderColor: 'gray',
@@ -143,7 +145,7 @@ function DetailCustomer({navigation}: any) {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              <Text style={{color: 'blue'}}>HUỲNH LỆ ĐIỀN</Text>
+              <Text style={{color: '#2f2268'}}>HUỲNH LỆ ĐIỀN</Text>
             </View>
           </View>
         </TouchableOpacity>
@@ -156,10 +158,12 @@ function DetailCustomer({navigation}: any) {
               width: '100%',
               marginVertical: 3,
               paddingHorizontal: 20,
+              marginBottom: 10,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
-              Thịnh Đạt
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
+              HUỲNH LỆ ĐIỀN
             </Text>
+
           </View>
           <View
             style={{
@@ -173,13 +177,13 @@ function DetailCustomer({navigation}: any) {
                 color: '#000',
                 opacity: 0.8,
               }}>
-              CÔNG TY TNHH MAY MẶC THỊNH ĐẠT
+              GIÁM ĐỐC
             </Text>
           </View>
           <View
             style={{
               borderBottomWidth: 1,
-              paddingTop: 20,
+              paddingTop: 10,
               // paddingVertical: 40,
               marginHorizontal: 10,
               borderColor: 'gray',
@@ -195,7 +199,7 @@ function DetailCustomer({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <MaterialIcons name={'place'} size={21} color={'#000'} />
+            <Text>Phone</Text>
             </View>
             <View
               style={{
@@ -204,9 +208,8 @@ function DetailCustomer({navigation}: any) {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              <Text>
-                Số 150 Huỳnh Châu Sổ, Thị Trấn Bến Lức, Huyện Bến Lức, Tỉnh Long
-                An, Việt Nam
+              <Text style={{color: '#2f2268'}}>
+                0913 222 333
               </Text>
             </View>
           </View>
@@ -219,7 +222,7 @@ function DetailCustomer({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <MaterialIcons name={'dns'} size={21} color={'#000'} />
+            <Text>Email</Text>
             </View>
             <View
               style={{
@@ -228,7 +231,7 @@ function DetailCustomer({navigation}: any) {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              <Text>1100542431</Text>
+              <Text style={{color: '#2f2268'}}>name@gmail.com</Text>
             </View>
           </View>
 
@@ -240,7 +243,7 @@ function DetailCustomer({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <MaterialIcons name={'person'} size={21} color={'#000'} />
+            <Text>Chat</Text>
             </View>
             <View
               style={{
@@ -249,7 +252,114 @@ function DetailCustomer({navigation}: any) {
                 flexDirection: 'row',
                 alignItems: 'center',
               }}>
-              <Text style={{color: 'blue'}}>HUỲNH LỆ ĐIỀN</Text>
+              <Text style={{color: '#2f2268'}}>hovaten</Text>
+            </View>
+          </View>
+        </TouchableOpacity>
+      </Surface>
+
+      <Surface style={styles.surface}>
+        <TouchableOpacity onPress={showModal}>
+          <View
+            style={{
+              width: '100%',
+              marginVertical: 3,
+              paddingHorizontal: 20,
+              marginBottom: 10,
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
+              LƯƠNG QUỐC KHÁNH
+            </Text>
+
+          </View>
+          <View
+            style={{
+              width: '100%',
+              paddingHorizontal: 20,
+            }}>
+            <Text
+              style={{
+                fontWeight: '600',
+                fontSize: 10,
+                color: '#000',
+                opacity: 0.8,
+              }}>
+              KINH DOANH
+            </Text>
+          </View>
+          <View
+            style={{
+              borderBottomWidth: 1,
+              paddingTop: 10,
+              // paddingVertical: 40,
+              marginHorizontal: 10,
+              borderColor: 'gray',
+              opacity: 0.5,
+              marginBottom: 10,
+            }}></View>
+
+          <View
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              paddingHorizontal: 20,
+              marginBottom: 10,
+            }}>
+            <View style={{width: '15%'}}>
+            <Text>Phone</Text>
+            </View>
+            <View
+              style={{
+                width: '85%',
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'center',
+              }}>
+              <Text style={{color: '#2f2268'}}>
+                0913 222 333
+              </Text>
+            </View>
+          </View>
+
+          <View
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              paddingHorizontal: 20,
+              marginBottom: 10,
+            }}>
+            <View style={{width: '15%'}}>
+            <Text>Email</Text>
+            </View>
+            <View
+              style={{
+                width: '85%',
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'center',
+              }}>
+              <Text style={{color: '#2f2268'}}>name@gmail.com</Text>
+            </View>
+          </View>
+
+          <View
+            style={{
+              display: 'flex',
+              flexDirection: 'row',
+              paddingHorizontal: 20,
+              marginBottom: 10,
+            }}>
+            <View style={{width: '15%'}}>
+            <Text>Chat</Text>
+            </View>
+            <View
+              style={{
+                width: '85%',
+                display: 'flex',
+                flexDirection: 'row',
+                alignItems: 'center',
+              }}>
+              <Text style={{color: '#2f2268'}}>hovaten</Text>
             </View>
           </View>
         </TouchableOpacity>

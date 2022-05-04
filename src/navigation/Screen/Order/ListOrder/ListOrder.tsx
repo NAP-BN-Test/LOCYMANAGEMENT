@@ -37,7 +37,7 @@ function ListOrder({navigation}: any) {
               marginVertical: 3,
               paddingHorizontal: 20,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#c91884'}}>
               VNHPH - SHANGHAI
             </Text>
           </View>
@@ -59,7 +59,7 @@ function ListOrder({navigation}: any) {
           <View
             style={{
               borderBottomWidth: 1,
-              paddingTop: 20,
+              paddingTop: 10,
               // paddingVertical: 40,
               marginHorizontal: 10,
               borderColor: 'gray',
@@ -75,7 +75,7 @@ function ListOrder({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 ETD
               </Text>
             </View>
@@ -98,7 +98,7 @@ function ListOrder({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 SEA
               </Text>
             </View>
@@ -139,7 +139,7 @@ function ListOrder({navigation}: any) {
               marginVertical: 3,
               paddingHorizontal: 20,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#c91884'}}>
               HAN - XSP
             </Text>
           </View>
@@ -161,7 +161,7 @@ function ListOrder({navigation}: any) {
           <View
             style={{
               borderBottomWidth: 1,
-              paddingTop: 20,
+              paddingTop: 10,
               // paddingVertical: 40,
               marginHorizontal: 10,
               borderColor: 'gray',
@@ -177,7 +177,7 @@ function ListOrder({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 ETD
               </Text>
             </View>
@@ -200,7 +200,7 @@ function ListOrder({navigation}: any) {
               marginBottom: 10,
             }}>
             <View style={{width: '15%'}}>
-              <Text style={{fontWeight: '400', fontSize: 14, color: 'blue'}}>
+              <Text style={{fontWeight: '400', fontSize: 14, color: '#375e89'}}>
                 AIR
               </Text>
             </View>
@@ -222,7 +222,7 @@ function ListOrder({navigation}: any) {
       {/* <BtnPlus
         icon="plus"
         actions={[]}
-        // backgroundColor='#ff00e0'
+        // backgroundColor='#c91884'
         onPress={() => {
           navigation.navigate('Home', {screen: 'quote'});
         }}

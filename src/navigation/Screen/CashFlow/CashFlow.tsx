@@ -55,8 +55,8 @@ function CashFlow({navigation}: any) {
               </Text>
             </View>
             <View style={{}}>
-              <Text style={{color: '#08d187', fontWeight: '600'}}>
-                5.5000.000.000
+              <Text style={{color: '#32aa63', fontWeight: '600'}}>
+                5.500.000.000
               </Text>
             </View>
           </View>
@@ -73,7 +73,7 @@ function CashFlow({navigation}: any) {
               <Text style={{fontWeight: '400', fontSize: 14}}>1111</Text>
             </View>
             <View style={{}}>
-              <Text style={{}}>5.0000.000.000</Text>
+              <Text style={{}}>5.000.000.000</Text>
             </View>
           </View>
 
@@ -89,7 +89,7 @@ function CashFlow({navigation}: any) {
               <Text style={{fontWeight: '400', fontSize: 14}}>1112</Text>
             </View>
             <View style={{}}>
-              <Text style={{}}>5.000.000</Text>
+              <Text style={{}}>500.000.000</Text>
             </View>
           </View>
           <View
@@ -118,7 +118,7 @@ function CashFlow({navigation}: any) {
               </Text>
             </View>
             <View style={{}}>
-              <Text style={{color: '#08d187', fontWeight: '600'}}>
+              <Text style={{color: '#32aa63', fontWeight: '600'}}>
                 20.000
               </Text>
             </View>

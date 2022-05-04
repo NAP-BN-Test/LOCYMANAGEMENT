@@ -34,7 +34,7 @@ export default function RNSRadioGroup({
               style={[
                 styles.item,
                 underline && styles.itemUnderline,
-                isActive && activeStyle, {backgroundColor: index != 1? 'green': 'orange' }
+                isActive && activeStyle, {backgroundColor: index != 1? 'green': '#ff6d00' }
               ]}
             >
               <Text

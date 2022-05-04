@@ -24,7 +24,7 @@ function Customer({navigation}: any) {
               width: '100%',
               marginVertical: 3,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
               Short Name
             </Text>
           </View>
@@ -57,7 +57,7 @@ function Customer({navigation}: any) {
               width: '100%',
               marginVertical: 3,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
               Short Name
             </Text>
           </View>
@@ -89,7 +89,73 @@ function Customer({navigation}: any) {
               width: '100%',
               marginVertical: 3,
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
+              Short Name
+            </Text>
+          </View>
+          <View
+            style={{
+              width: '100%',
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 14}}>
+              Phone / Email / Chat
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </Surface>
+
+      <Surface style={styles.surface}>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('Home', {screen: 'detailcustomer'});
+          }}>
+          <View
+            style={{
+              width: '100%',
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 14, color: '#000'}}>
+              TÊN NGƯỜI ĐẠI DIỆN
+            </Text>
+          </View>
+          <View
+            style={{
+              width: '100%',
+              marginVertical: 3,
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
+              Short Name
+            </Text>
+          </View>
+          <View
+            style={{
+              width: '100%',
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 14}}>
+              Phone / Email / Chat
+            </Text>
+          </View>
+        </TouchableOpacity>
+      </Surface>
+
+      <Surface style={styles.surface}>
+        <TouchableOpacity
+          onPress={() => {
+            navigation.navigate('Home', {screen: 'detailcustomer'});
+          }}>
+          <View
+            style={{
+              width: '100%',
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 14, color: '#000'}}>
+              TÊN NGƯỜI ĐẠI DIỆN
+            </Text>
+          </View>
+          <View
+            style={{
+              width: '100%',
+              marginVertical: 3,
+            }}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#b3257b'}}>
               Short Name
             </Text>
           </View>
@@ -116,6 +182,6 @@ const styles = StyleSheet.create({
     // alignItems: 'center',
     // justifyContent: 'center',
     elevation: 4,
-    marginTop: 10,
+    marginTop: 20,
   },
 });

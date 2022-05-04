@@ -252,7 +252,7 @@ function KQKDMONT({navigation}: any) {
                 justifyContent: 'space-between',
                 paddingHorizontal: 10,
                 marginBottom: 10,
-                backgroundColor: '#dfa053',
+                backgroundColor: '#ff6d00',
               }}>
               <View
                 style={{

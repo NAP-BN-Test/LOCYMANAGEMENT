@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     margin: 16,
     right: 0,
     bottom: 0,
-    backgroundColor: '#ff00e0',
+    backgroundColor: '#c91884',
     fontSize: 32
   },
 });

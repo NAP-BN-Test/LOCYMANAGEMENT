@@ -24,7 +24,7 @@ function Payment({navigation}: any) {
                 color: '#000',
                 opacity: 0.8,
               }}>
-              LÊ ĐOÀN VĨNH NAM
+              ĐỐI TƯỢNG THỤ HƯỞNG
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
               25/01/2022
@@ -40,8 +40,8 @@ function Payment({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
-              5.000.000
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#ef0290'}}>
+              SỐ TIỀN
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
           </View>
@@ -59,7 +59,7 @@ function Payment({navigation}: any) {
               style={{
                 fontSize: 10,
                 color: '#fff',
-                backgroundColor: '#18dbc9',
+                backgroundColor: '#3fc4ff',
                 paddingVertical: 5,
                 paddingHorizontal: 15,
                 borderRadius: 15,
@@ -118,7 +118,7 @@ function Payment({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#ef0290'}}>
               5.000.000
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
@@ -137,7 +137,7 @@ function Payment({navigation}: any) {
               style={{
                 fontSize: 10,
                 color: '#fff',
-                backgroundColor: '#18dbc9',
+                backgroundColor: '#3fc4ff',
                 paddingVertical: 5,
                 paddingHorizontal: 15,
                 borderRadius: 15,
@@ -196,7 +196,7 @@ function Payment({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '400', fontSize: 18, color: '#ef0290'}}>
               5.000.000
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
@@ -215,7 +215,7 @@ function Payment({navigation}: any) {
               style={{
                 fontSize: 10,
                 color: '#fff',
-                backgroundColor: '#ff00e0d1',
+                backgroundColor: '#ef0290',
                 paddingVertical: 5,
                 paddingHorizontal: 15,
                 borderRadius: 15,

@@ -18,7 +18,7 @@ function Noti() {
             Subtitle 1
           </Text>
           <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
-            25/01/2022 03:25 PM
+            14/01/2022 03:14 PM
           </Text>
         </View>
         <View
@@ -47,7 +47,7 @@ function Noti() {
             Subtitle 1
           </Text>
           <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
-            25/01/2022 03:25 PM
+            14/01/2022 03:14 PM
           </Text>
         </View>
         <View
@@ -75,7 +75,7 @@ function Noti() {
             Subtitle 1
           </Text>
           <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
-            25/01/2022 03:25 PM
+            14/01/2022 03:14 PM
           </Text>
         </View>
         <View
@@ -91,6 +91,97 @@ function Noti() {
           </Text>
         </View>
       </Surface>
+
+      <Surface
+        style={[styles.surface, {backgroundColor: '#80808078', elevation: 0}]}>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            width: '100%',
+          }}>
+          <Text style={{fontWeight: '400', fontSize: 14, color: '#000'}}>
+            Subtitle 1
+          </Text>
+          <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
+            14/01/2022 03:14 PM
+          </Text>
+        </View>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            width: '100%',
+          }}>
+          <Text style={{fontSize: 13, marginTop: 5}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.{' '}
+          </Text>
+        </View>
+      </Surface>
+
+      <Surface
+        style={[styles.surface, {backgroundColor: '#80808078', elevation: 0}]}>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            width: '100%',
+          }}>
+          <Text style={{fontWeight: '400', fontSize: 14, color: '#000'}}>
+            Subtitle 1
+          </Text>
+          <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
+            14/01/2022 03:14 PM
+          </Text>
+        </View>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            width: '100%',
+          }}>
+          <Text style={{fontSize: 13, marginTop: 5}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.{' '}
+          </Text>
+        </View>
+      </Surface>
+
+      <Surface
+        style={[styles.surface, {backgroundColor: '#80808078', elevation: 0}]}>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            width: '100%',
+          }}>
+          <Text style={{fontWeight: '400', fontSize: 14, color: '#000'}}>
+            Subtitle 1
+          </Text>
+          <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
+            14/01/2022 03:14 PM
+          </Text>
+        </View>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            width: '100%',
+          }}>
+          <Text style={{fontSize: 13, marginTop: 5}}>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.{' '}
+          </Text>
+        </View>
+      </Surface>
+
     </View>
   );
 }
@@ -103,7 +194,8 @@ const styles = StyleSheet.create({
     width: '100%',
     // alignItems: 'center',
     // justifyContent: 'center',
-    elevation: 4,
+
+    elevation: 1,
     marginTop: 10,
   },
 });

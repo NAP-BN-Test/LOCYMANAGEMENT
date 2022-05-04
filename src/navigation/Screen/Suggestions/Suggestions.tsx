@@ -23,7 +23,7 @@ function Suggestions({navigation}: any) {
                 color: '#000',
                 opacity: 0.8,
               }}>
-              LÊ ĐOÀN VĨNH NAM
+              TÊN NGƯỜI YÊU CẦU
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>
               25/01/2022
@@ -39,8 +39,8 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
-              5.000.000
+            <Text style={{fontWeight: '600', fontSize: 18, color: '#eb58b1'}}>
+              SỐ TIỀN
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
           </View>
@@ -53,7 +53,7 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 14}}>Số phiếu</Text>
+            <Text style={{fontWeight: '600', fontSize: 14}}>Số phiếu</Text>
             <Text
               style={{
                 fontSize: 10,
@@ -103,7 +103,7 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '600', fontSize: 18, color: '#eb58b1'}}>
               5.000.000
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
@@ -117,7 +117,7 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 14}}>Số phiếu</Text>
+            <Text style={{fontWeight: '600', fontSize: 14}}>TU0122-1</Text>
             <Text
               style={{
                 fontSize: 10,
@@ -168,7 +168,7 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '600', fontSize: 18, color: '#eb58b1'}}>
               5.000.000
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
@@ -182,12 +182,12 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 14}}>Số phiếu</Text>
+            <Text style={{fontWeight: '600', fontSize: 14}}>TU0122-1</Text>
             <Text
               style={{
                 fontSize: 10,
                 color: '#fff',
-                backgroundColor: '#dda830',
+                backgroundColor: '#ff6d00',
                 paddingVertical: 5,
                 paddingHorizontal: 15,
                 borderRadius: 15,
@@ -234,7 +234,7 @@ function Suggestions({navigation}: any) {
               alignItems: 'center',
               
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
+            <Text style={{fontWeight: '600', fontSize: 18, color: '#eb58b1'}}>
               5.000.000
             </Text>
             <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
@@ -248,7 +248,7 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 14}}>Số phiếu</Text>
+            <Text style={{fontWeight: '600', fontSize: 14}}>TU0122-1</Text>
             <Text
               style={{
                 fontSize: 10,
@@ -299,10 +299,10 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 18, color: '#ff00e0'}}>
-              5.000.000
+            <Text style={{fontWeight: '600', fontSize: 18, color: '#eb58b1'}}>
+              6.500
             </Text>
-            <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>VND</Text>
+            <Text style={{fontSize: 10, color: '#000', opacity: 0.5}}>USD</Text>
           </View>
           <View
             style={{
@@ -313,12 +313,12 @@ function Suggestions({navigation}: any) {
               justifyContent: 'space-between',
               alignItems: 'center',
             }}>
-            <Text style={{fontWeight: '400', fontSize: 14}}>Số phiếu</Text>
+            <Text style={{fontWeight: '600', fontSize: 14}}>TU0122-1</Text>
             <Text
               style={{
                 fontSize: 10,
                 color: '#fff',
-                backgroundColor: '#dda830',
+                backgroundColor: '#ff6d00',
                 paddingVertical: 5,
                 paddingHorizontal: 15,
                 borderRadius: 15,

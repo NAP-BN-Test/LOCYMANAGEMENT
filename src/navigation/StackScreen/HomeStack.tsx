@@ -167,7 +167,7 @@ const HomeStackScreen = ({navigation, route}: any) => {
         component={KQKDDATE}
         options={() => ({
           header: () => (
-            <HeaderBar navigation={navigation} title={'KQKD ngày'} />
+            <HeaderBar navigation={navigation} title={'Page Title'} />
           ),
         })}
       />
@@ -177,7 +177,7 @@ const HomeStackScreen = ({navigation, route}: any) => {
         component={KQKDMONTH}
         options={() => ({
           header: () => (
-            <HeaderBar navigation={navigation} title={'KQKD tháng'} />
+            <HeaderBar navigation={navigation} title={'Page Title'} />
           ),
         })}
       />
